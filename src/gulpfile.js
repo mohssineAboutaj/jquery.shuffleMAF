@@ -52,8 +52,8 @@ gulp.task('sassTask', ()=>{
   gulp.src(sassFiles)
       .pipe(sass())
       .on("error", showError)
-      .pipe(gulp.dest(cssDir))
-      .pipe(browserSync.stream());
+      .pipe(gulp.dest(cssDir));
+//      .pipe(browserSync.stream());
 });
 
 // PUG task 
@@ -72,6 +72,7 @@ gulp.task('jsTask', ()=>{
         ext: { min:'.js' },
         noSource: true
       }))
+      .on("error", showError)
       .pipe(gulp.dest(layout + jsDir))
       .pipe(browserSync.stream());
 });

@@ -1,0 +1,26 @@
+//- effectList from _variables.pug
+-var divsClass = ["col-xs-12","col-sm-6","col-md-3","img","shuffle-item","m-2"];
+each effect in effectList
+	.shuffleMAF(id=effect)
+		.shuffle-nav.row.text-center
+			li.col(class="shuffle-active") all
+			li.col(data-filter="cat-1") category 1
+			li.col(data-filter="cat-2") category 2
+			li.col(data-filter="cat-3") category 3
+		.row.shuffle-content
+			.cat-1(class=divsClass)
+				.img.h-equal-w
+			.cat-2(class=divsClass)
+				.img.h-equal-w
+			.cat-3(class=divsClass)
+				.img.h-equal-w
+			.cat-1(class=divsClass)
+				.img.h-equal-w
+			.cat-2(class=divsClass)
+				.img.h-equal-w
+			.cat-3(class=divsClass)
+				.img.h-equal-w
+			.cat-1(class=divsClass)
+				.img.h-equal-w
+			.cat-2(class=divsClass)
+				.img.h-equal-w

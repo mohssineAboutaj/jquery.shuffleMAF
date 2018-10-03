@@ -1,20 +1,96 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <meta charset="utf8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Mohssine Aboutaj">
     <title>jquery shuffleMAF documentation</title>
+    <!-- cssFiles from _variables.pug-->
+    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="dist/css/shuffleMAF.css">
+    <link rel="stylesheet" type="text/css" href="dist/css/style.css">
   </head>
   <body>
-    <!-- include footer-->
+    <div class="shuffleMAF" id="fade">
+      <div class="shuffle-nav row text-center">
+        <li class="col shuffle-active">all</li>
+        <li class="col" data-filter="cat-1">category 1</li>
+        <li class="col" data-filter="cat-2">category 2</li>
+        <li class="col" data-filter="cat-3">category 3</li>
+      </div>
+      <div class="row shuffle-content">
+        <div class="cat-1 col-xs-12 col-sm-6 col-md-3 img shuffle-item m-2">
+          <div class="img h-equal-w"></div>
+        </div>
+        <div class="cat-2 col-xs-12 col-sm-6 col-md-3 img shuffle-item m-2">
+          <div class="img h-equal-w"></div>
+        </div>
+        <div class="cat-3 col-xs-12 col-sm-6 col-md-3 img shuffle-item m-2">
+          <div class="img h-equal-w"></div>
+        </div>
+        <div class="cat-1 col-xs-12 col-sm-6 col-md-3 img shuffle-item m-2">
+          <div class="img h-equal-w"></div>
+        </div>
+        <div class="cat-2 col-xs-12 col-sm-6 col-md-3 img shuffle-item m-2">
+          <div class="img h-equal-w"></div>
+        </div>
+        <div class="cat-3 col-xs-12 col-sm-6 col-md-3 img shuffle-item m-2">
+          <div class="img h-equal-w"></div>
+        </div>
+        <div class="cat-1 col-xs-12 col-sm-6 col-md-3 img shuffle-item m-2">
+          <div class="img h-equal-w"></div>
+        </div>
+        <div class="cat-2 col-xs-12 col-sm-6 col-md-3 img shuffle-item m-2">
+          <div class="img h-equal-w"></div>
+        </div>
+      </div>
+    </div>
+    <div class="shuffleMAF" id="opacity">
+      <div class="shuffle-nav row text-center">
+        <li class="col shuffle-active">all</li>
+        <li class="col" data-filter="cat-1">category 1</li>
+        <li class="col" data-filter="cat-2">category 2</li>
+        <li class="col" data-filter="cat-3">category 3</li>
+      </div>
+      <div class="row shuffle-content">
+        <div class="cat-1 col-xs-12 col-sm-6 col-md-3 img shuffle-item m-2">
+          <div class="img h-equal-w"></div>
+        </div>
+        <div class="cat-2 col-xs-12 col-sm-6 col-md-3 img shuffle-item m-2">
+          <div class="img h-equal-w"></div>
+        </div>
+        <div class="cat-3 col-xs-12 col-sm-6 col-md-3 img shuffle-item m-2">
+          <div class="img h-equal-w"></div>
+        </div>
+        <div class="cat-1 col-xs-12 col-sm-6 col-md-3 img shuffle-item m-2">
+          <div class="img h-equal-w"></div>
+        </div>
+        <div class="cat-2 col-xs-12 col-sm-6 col-md-3 img shuffle-item m-2">
+          <div class="img h-equal-w"></div>
+        </div>
+        <div class="cat-3 col-xs-12 col-sm-6 col-md-3 img shuffle-item m-2">
+          <div class="img h-equal-w"></div>
+        </div>
+        <div class="cat-1 col-xs-12 col-sm-6 col-md-3 img shuffle-item m-2">
+          <div class="img h-equal-w"></div>
+        </div>
+        <div class="cat-2 col-xs-12 col-sm-6 col-md-3 img shuffle-item m-2">
+          <div class="img h-equal-w"></div>
+        </div>
+      </div>
+    </div>
     <footer>
       <div class="row">
-        <div class="col">
-          &copy; 2018 - 
-          new Date().getFullYear();
-          - Mohssine Aboutaj - <b>MAF &trade;</b>
-        </div>
+        <div class="col">&copy; 2018 - <span id="thisYear"></span> , created by Mohssine Aboutaj , <b>MAF</b> &trade;</div>
         <div class="col">icons</div>
       </div>
     </footer>
+    <!-- include script files-->
+    <!-- jsFiles from _variables.pug-->
+    <script src="dist/js/jquery-3.1.1.min.js"></script>
+    <script src="dist/js/popper.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="dist/js/jquery.shuffleMAF.js"></script>
+    <script src="dist/js/script.js"></script>
   </body>
 </html>

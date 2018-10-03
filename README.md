@@ -15,17 +15,17 @@ This is shuffle script based on jquery library
   </ul>
   <div class="row shuffle-content">
     <div class="cat-1">
-		// your content
+			// your content
     </div>
   </div>
 </div>
 
 ### javaScript structure ###
 
- shuffleMAF({
-		effect: fade // any effect from list [ default is **fade** ] <type=string> ,
-		time: 700 // action time in millisecond [ default is **700** ] <type=number>
- });
+shuffleMAF({
+	effect: fade // any effect from list [ default is **fade** ] <type=string> ,
+	time: 700 // action time in millisecond [ default is **700** ] <type=number>
+});
 
 ## List of Effects ##
 

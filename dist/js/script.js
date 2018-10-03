@@ -1,0 +1,1 @@
+$(function(){$("#fade").shuffleMAF({effect:"fade"}),$("#opacity").shuffleMAF({effect:"opacity"}),$(".h-equal-w").each(function(){$(this).height($(this).width())}),$("#thisYear").html((new Date).getFullYear())});
